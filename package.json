@@ -1,0 +1,13 @@
+{
+    "name": "weekend-project-top-lvl"
+        ,
+    "description": "Project Outer package.json - Will include Heroku Scripts at development time"
+        ,
+    "engines": { "node": "16.x" }
+       ,
+    "version": "1.0.0"
+       ,
+    "scripts": {
+        "start": "npm start --prefix client"
+    }
+}
